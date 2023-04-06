@@ -1,0 +1,138 @@
+main{
+    width: 100%;
+    height: 60vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    /* height: 570px; */
+    margin: 0px auto;
+}
+.title-slide{
+    font-size: 50px;
+    font-weight: 700;
+    height: 40px;
+    font-family: "Montserrat";
+  
+  text-align: center;
+  letter-spacing: -0.05em;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.1);
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset;
+    width: 70%;
+    -webkit-box-shadow: -1px 7px 29px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 29px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 29px -1px rgba(0,0,0,0.75);
+    height: 90%;
+    margin: 0px auto;
+    margin-bottom: 70px;
+}
+
+.person-img{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.author{
+    font-weight: 700;
+    font-size: 100;
+    color: rgb(211, 208, 208);
+    margin-bottom: 5px;
+}
+.job{
+    color: rgb(216, 213, 213);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.info{
+    color: rgb(207, 206, 206);
+    font-weight: 500;
+    margin: 5px 40px;
+    width: 500px;
+}
+.random-btn{
+    padding: 5px 8px;
+    color: rgb(31, 29, 29);
+    font-weight: 600;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.random-btn:hover{
+    background-color: rgb(46, 46, 97);
+    color: white;
+}
+.prev-btn{
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 2px;
+}
+.next-btn{
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 2px;
+}
+.next-btn:hover{
+    color: black;
+}
+.prev-btn:hover{
+    color: black;
+}
+.button-container{
+    margin-top: 10px;
+}
+@media only screen and (max-width:470px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .info{
+        color: rgb(207, 206, 206);
+        font-weight: 500;
+        margin: 5px auto;
+        width: 290px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:700px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .info{
+        color: rgb(207, 206, 206);
+        font-weight: 500;
+        margin: 5px auto;
+        width: 340px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:900px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .info{
+        color: rgb(207, 206, 206);
+        font-weight: 500;
+        margin: 5px auto;
+        width: 340px;
+        text-align: center;
+    }
+}

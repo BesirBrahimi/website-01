@@ -1,0 +1,131 @@
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 74vh;
+  margin: 20px auto;
+}
+.left-signup {
+  flex: 1;
+  margin-right: 20px;
+  height: 300px;
+}
+.right-signup {
+  flex: 1;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.learn-left{
+    width: 200px;
+    margin-bottom: 4rem;
+}
+.company-right{
+    width: 200px;
+    margin-bottom: 8.4rem;
+}
+ul li {
+    margin-bottom: 7px;
+    color: #dbd8d8;
+}
+h3{
+    color: rgb(231, 228, 228);
+    margin-bottom: 10px;
+}
+.left-signup h2 {
+  width: 400px;
+  height: 66px;
+  margin-bottom: 10px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+.left-signup p {
+  width: 400px;
+  height: 21px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.input-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+.input-button input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  color: white;
+  width: 300px;
+  border-radius: 4px;
+}
+.input-button button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 14px;
+  gap: 10.8px;
+  background: #fddd35;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.22), 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.reserved {
+  margin-top: 8rem;
+}
+@media only screen and (max-width:470px){
+  .signup {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+  .reserved{
+    display: none;
+  }
+}
+@media only screen and (max-width:700px){
+  .signup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  .reserved{
+    display: none;
+  }
+}
+@media only screen and (max-width:900px){
+  .signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 74vh;
+    margin: 40px auto;
+  }
+  .left-signup {
+    margin-right: 40px;
+  }
+}

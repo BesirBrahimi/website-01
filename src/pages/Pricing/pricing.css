@@ -1,0 +1,243 @@
+.title {
+  /* width: 60%; */
+  height: 90px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  margin: 10px auto;
+  color: rgba(255, 255, 255, 0.1);
+}
+.content-pricing {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  gap: 10px;
+}
+.left-pricing {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+}
+.left-pricing img {
+  width: 100%;
+  object-fit: cover;
+}
+.right-pricing img {
+  width: 100%;
+  object-fit: cover;
+}
+.right-pricing {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+}
+.title-js {
+  display: flex;
+  flex-direction: column;
+  margin-right: 11rem;
+  margin-top: 20px;
+}
+.title-js h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+.learn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.learn-data {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.title-data{
+    display: flex;
+    flex-direction: column;
+    margin-right: 9rem;
+    margin-top: 20px;
+}
+.title-data h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+.arrow{
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width:470px){
+  .title {
+    height: 80px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .content-pricing {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+  .left-pricing {
+    width: 400px; 
+    height: auto;
+  }
+  .title-js {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    /* margin-top: 20px; */
+  }
+  .title-js h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -2px;
+    color: #ffffff;
+    margin: 5px auto;
+  }
+  .right-pricing {
+    width: 400px; 
+    height: auto;
+    margin-top: 20px;
+  }
+  .title-data{
+    margin: 5px auto;
+  }
+  .learn-data{
+    margin: 10px;
+  }
+  .title-data h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin: 10px;
+  }
+
+}
+@media only screen and (max-width:700px){
+  .title {
+    height: 80px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .content-pricing {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+  .left-pricing {
+    width: 400px; 
+    height: auto;
+  }
+  .right-pricing {
+    width: 400px; 
+    height: auto;
+    margin-top: 20px;
+  }
+  .title-js {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    /* margin-top: 20px; */
+  }
+  .title-data{
+    margin: 15px auto;
+  }
+}
+@media only screen and (max-width:900px){
+  .title {
+    height: 80px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .content-pricing {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+  .left-pricing {
+    width: 400px; 
+    height: auto;
+  }
+  .right-pricing {
+    width: 400px; 
+    height: auto;
+    margin-top: 20px;
+  }
+  .title-js {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    /* margin-top: 20px; */
+  }
+  .title-data{
+    margin: 15px auto;
+  }
+}
+@media only screen and (max-width:1000px){
+  .content-pricing {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+}
