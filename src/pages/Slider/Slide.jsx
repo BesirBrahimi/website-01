@@ -54,7 +54,7 @@ const Slide = () => {
         </button>
     </div>
     <button className='random-btn' onClick={randomNumber}>
-            Suprise Me
+            Surprise Me
             </button>
   </article>
   )
